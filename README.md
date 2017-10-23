@@ -10,9 +10,11 @@
 
 ## 如何使用 
 在proguard-rules.pro文件中进行配置
+```
 -obfuscationdictionary ConfusedDIS.txt
 -classobfuscationdictionary ConfusedDIS.txt
 -packageobfuscationdictionary ConfusedDIS.txt
+```
 
 ConfusedDIS 文件下提供了大量的词典 可以根据需要自行删减
 
